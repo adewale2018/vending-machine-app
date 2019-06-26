@@ -13,9 +13,9 @@ class VendingMachine extends Component {
           <h1>Hello!, I'm a VendingMachine. What will you like to eat?</h1>
         </Message>
         <Message>
-          <Link exact to="/soda">Soda</Link>
-          <Link exact to="/chips">Chips</Link>
-          <Link exact to="/sardines">Sardines</Link>
+          <Link exact to="/soda"><span role="img" aria-label="diamond">🔸</span>Soda<span role="img" aria-label="diamond">🔸</span></Link>
+          <Link exact to="/chips"><span role="img" aria-label="diamond">🔹</span>Chips<span role="img" aria-label="diamond">🔹</span></Link>
+          <Link exact to="/sardines"><span role="img" aria-label="diamond">🔸</span>Sardines<span role="img" aria-label="diamond">🔸</span></Link>
         </Message>
       </div>
     );
